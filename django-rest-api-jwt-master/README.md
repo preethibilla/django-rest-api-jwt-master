@@ -132,3 +132,12 @@ curl -X DELETE \
   http://localhost:8000/api/v1/songs/5/ \
   -H 'authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6Im5ld191c2VyIiwiZXhwIjoxNTQwNTU3Mjc3LCJlbWFpbCI6Im5ld191c2VyQG1haWwuY29tIn0.zCPIfm25UD3ySF7ivxfKwBEIaz4x68U8CY0pRCkJWTg' \
 ```
+
+
+http://localhost:8000/api/v1/auth/register/ - Register
+
+http://localhost:8000/api/v1/auth/login/ - Login
+
+http://localhost:8000/api/v1/items - Items
+
+http://localhost:8000/api/v1/inventory?stock_status=in%20stock&min_stock=0&max_stock=20

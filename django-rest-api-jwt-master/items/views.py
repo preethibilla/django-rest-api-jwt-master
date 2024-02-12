@@ -11,26 +11,6 @@ from .models import Inventory
 from .serializers import InventorySerializer
 from django.db.models import Q 
 
-
-# class ListCreateSongsView(generics.ListCreateAPIView):
-#     """
-#     GET songs/
-#     POST songs/
-#     """
-#     queryset = Songs.objects.all()
-#     serializer_class = SongsSerializer
-#     permission_classes = (permissions.IsAuthenticated,)
-
-#     @validate_request_data
-#     def post(self, request, *args, **kwargs):
-#         a_song = Songs.objects.create(
-#             title=request.data["title"],
-#             artist=request.data["artist"]
-#         )
-#         return Response(
-#             data=SongsSerializer(a_song).data,
-#             status=status.HTTP_201_CREATED
-#         )
     
 class ListCreateItemsView(generics.ListCreateAPIView):
     """
